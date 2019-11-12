@@ -1,0 +1,204 @@
+/* Normalize CSS */
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-bar {
+  background-color: #138fc2;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #ffff;
+}
+
+.menu-bar ul li {
+  width: 120px;
+  padding: 20px;
+}
+
+ul li:hover {
+  background-color: #013d55;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* card styles */
+.container {
+  margin: 50px 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .card {
+  margin: 0 20px;
+
+  height: 320px;
+  width: 240px;
+  padding: 20px 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.container-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #013d55;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.container .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 24px;
+}
+
+.container .card .card-title {
+  font-weight: 600;
+  margin: 15px 0;
+  text-transform: uppercase;
+  color: #333;
+}
+.container .card .card-text {
+  font-size: 13px;
+  padding-bottom: 20px;
+  color: rgb(97, 97, 97);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* slider */
+.img-container {
+  background: url("./src/images/bg.jpg") no-repeat scroll center bottom / 100%
+    auto;
+  color: #fff;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-texts {
+  margin-left: 5%;
+  padding: 250px;
+  font-weight: 200;
+}
+
+.title-texts h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.title-texts p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.secondImg {
+  background: url("./src/images/angle-bg.png") no-repeat scroll center bottom /
+    100% auto;
+}
+
+.sliders {
+  margin-top: 10%;
+  margin-right: 15%;
+}
+
+/* team styles */
+
+.team-container {
+  margin: 50px 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.team-container .card {
+  height: 320px;
+  width: 240px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  padding-bottom: 15px;
+  margin: 0 20px;
+}
+
+.team-img img {
+  height: 300px;
+  width: 250px;
+  margin-top: -40px;
+}
+.employee-name {
+  margin-top: -40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.myFooter {
+  background: url("./src/images/angle-bg.png") no-repeat scroll center bottom /
+    100% auto;
+  color: #ffff;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 25px;
+}
+
+.last-text {
+  text-align: center;
+  font-size: 13px;
+}
+.fa {
+  color: #333;
+}
+
+.fa:hover {
+  color: #fff;
+}
+
+.icons ul {
+  list-style: none;
+}
+
+.icons ul li {
+  color: #333;
+  background-color: #ffff;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 50px 20px;
+}
+
+.icons ul li:hover {
+  color: #fff;
+
+  background-color: #333;
+}
+
+.icon-list {
+  display: inline-flex;
+}
